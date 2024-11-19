@@ -1,0 +1,6 @@
+@mixin demo($fs:normal, $fw : 400) {
+    font-size: 28px;
+    font-weight: $fw;
+    font-style: $fs;
+    background-color: greenyellow;
+}

@@ -1,13 +1,37 @@
+/* Color Variable  */
 body {
   margin: 0px;
   padding: 0px;
 }
 
-/* Color Variable  */
 .box {
   height: 120px;
   width: 345px;
   background-color: blue;
+}
+
+/* Menubar */
+.menu ul {
+  border: 1px solid red;
+}
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 23px;
+  margin: 2px 23px;
+  color: red;
+}
+
+/* Mixing Session */
+span {
+  color: red;
+  font-size: 28px;
+  font-weight: 800;
+  font-style: italic;
+  background-color: greenyellow;
 }
 
 /*# sourceMappingURL=style.css.map */
