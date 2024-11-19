@@ -15,13 +15,48 @@ img{
 }
 .image-box{
     width: 560px;
-   position: relative;
+    position: relative;
+}
+.image-box img{
+    width: 100%;
+}
+.image-box::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    opacity: .5;
+    pointer-events: none;
 }
 
-
 .text-box{
+   padding: 7px 15px ;
     position: absolute;
     left: 0;
     bottom: 0;
+    z-index: 1;
+    background: #000;
+}
+.text-box h3{
+    color: white;
+    
+}
+.text-box h3::before{
+    content: '';
+    height: 2px;
+    width: 53px;
+    display: inline-block;
+    background-color: red;
+}
+.text-box h3::after{
+    content: '';
+    height: 2px;
+    width: 53px;
+    display: inline-block;
+    background-color: white;
 }
 /* End Header Section  */
