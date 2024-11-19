@@ -70,3 +70,31 @@ span {
     background-color: greenyellow;
     @extend .single-services;
 }
+
+/* Each Opearator */
+
+$list: (h1, 48px, 56px, 900), 
+        (h2, 34px, 46px, 600); 
+
+@each $name, $font-size, $line-height, $font-weight in $list{
+    #{$name}{
+        font-size: $font-size;
+        line-height: $line-height;
+        font-weight: $font-weight;
+    }
+}
+
+$map: (
+    primary: rgb(4, 4, 139), 
+    success: rgb(0, 24, 0), 
+    danger: rgb(255, 52, 52),
+); 
+
+@each $name, $color in $map {
+    .btn-#{$name}{
+        background-color: $color;
+        border-radius: 10px;
+        display: inline-block;
+        color: #fff;
+    }
+}
