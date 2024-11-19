@@ -100,4 +100,22 @@ h2 {
   color: #fff;
 }
 
+btn-primary {
+  color: white;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+btn-secoundary {
+  color: green;
+  padding: 15px;
+  border: 1px solid rgb(7, 219, 202);
+}
+
+btn-readmore {
+  color: black;
+  padding: 15px;
+  border: 1px solid rgb(10, 221, 10);
+}
+
 /*# sourceMappingURL=style.css.map */
