@@ -34,4 +34,36 @@ span {
   background-color: greenyellow;
 }
 
+.single-services, .services-5 {
+  margin: 9px 0px;
+  padding: 24px 16px;
+  color: black;
+  border: 1px solid rgb(172, 235, 0);
+  border-radius: 7px;
+}
+.single-services h2, .services-5 h2 {
+  font-size: 44px;
+  font-weight: 600;
+  font-family: italic;
+}
+.single-services button, .services-5 button {
+  padding: 10px 22px;
+  background-color: rgb(15, 15, 15);
+  border: 1px solid white;
+}
+.single-services button:hover, .services-5 button:hover {
+  background-color: white;
+  color: red;
+}
+.single-services:hover, .services-5:hover {
+  color: white;
+  background-color: red;
+  transition: 0.8s;
+  border: 1px solid white;
+}
+
+.services-5 {
+  background-color: greenyellow;
+}
+
 /*# sourceMappingURL=style.css.map */
