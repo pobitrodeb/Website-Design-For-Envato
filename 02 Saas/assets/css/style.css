@@ -118,4 +118,18 @@ btn-readmore {
   border: 1px solid rgb(10, 221, 10);
 }
 
+/* BEM Method */
+.keyaservices__single {
+  margin: 15px 18px;
+  padding: 18px 14px;
+  background-color: greenyellow;
+  color: black;
+}
+.keyaservices__single--thumbnail {
+  background-color: red;
+}
+.keyaservices__single--thumbnail h4 {
+  font-size: 35px;
+}
+
 /*# sourceMappingURL=style.css.map */

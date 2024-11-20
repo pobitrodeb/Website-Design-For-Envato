@@ -110,3 +110,21 @@ $btn : (btn-primary,white,  15px, 1px solid red, 7px),
         border: $border;
     }
 }
+
+/* BEM Method */
+.keyaservices {
+    &__single {
+      margin: 15px 18px;
+      padding: 18px 14px;
+      background-color: greenyellow;
+      color: black;
+    }
+    &__single{
+        &--thumbnail{
+            background-color: red;
+            h4{
+                font-size: 35px;
+            }
+        }
+    }
+  }
