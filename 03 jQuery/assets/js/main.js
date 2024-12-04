@@ -21,4 +21,20 @@ $(document).ready(function(){
         $(".fade-box1").fadeOut("slow");
         $(".fade-box2").fadeOut(2000);
     }));
+
+    //Slide 
+    $(".slide-btn").on("click", (function(){
+        $(".slide-content").slideToggle("slow");
+    }));
+
+
+
+
+
+
+
+
+
+
+
 });

@@ -41,4 +41,18 @@
   background-color: blue;
 }
 
+.slide h3 {
+  width: 340px;
+  padding: 20px 34px;
+  background-color: red;
+  color: white;
+}
+.slide p {
+  width: 340px;
+  padding: 20px 34px;
+  background-color: green;
+  color: white;
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
