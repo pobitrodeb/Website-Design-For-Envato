@@ -25,3 +25,23 @@
         }
     }
 }
+.main-boxes{
+    & .fade-box{
+        width:460px;
+        height: 230px;
+        background-color: red;
+        // display: none;
+    }
+    & .fade-box1{
+        width: 460px;
+        height: 230px;
+        background-color: green;
+        // display: none;
+    }
+    & .fade-box2{
+        width: 460px;
+        height: 230px;
+        background-color: blue;
+        // display: none;
+    }
+}

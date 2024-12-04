@@ -13,4 +13,12 @@ $(document).ready(function(){
         $(".text-css").css("padding", "18px",);
         $(".text-css").css("font-size", "24px",);
     }));
+    
+
+    //fadeIn Event 
+    $('.fade-box').on("click", (function(){
+        $(".fade-box").fadeOut();
+        $(".fade-box1").fadeOut("slow");
+        $(".fade-box2").fadeOut(2000);
+    }));
 });
